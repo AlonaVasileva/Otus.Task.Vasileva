@@ -1,0 +1,126 @@
+==============================
+= Save Alert Summary to File =
+==============================
+Date of Alert: 17.10.2024 14:33
+Windows User:  vasilevaea
+%AVEVA_DESIGN_EXE%:C:\AVEVA\Diagrams14.1.3\
+%PMLLIB%:      K:\40-УТМ\Aveva\Diagrams\PMLLIB;C:\AVEVA\Diagrams14.1.3\pmllib\
+%PMLUI%:       K:\40-УТМ\Aveva\Diagrams\PMLUI;C:\AVEVA\Diagrams14.1.3\pmlui\
+==============================
+
+PML Alert Summary:
+Message: PML Error in method RUN : 
+
+Не удается создать объект.
+Line:  In line 6 of Macro %PMLLIB%\dotnet\runmac\sharp_exportVisioDWG.pmlmac
+Command: !csharpobject.Run()
+
+Banner:
+AVEVA Diagrams Diagrams Mk14.1.3.8[D14138-12]  (WINDOWS-NT 6.3)  (3  May 2021 : 05:50)
+Copyright 2012 to current year.  AVEVA Solutions Limited and its subsidiaries. All rights reserved.
+Issued to JSC Polymetal Engineering
+
+Subsystems:
+Core 1.2.4.18
+Core3D 1.2.4.18
+
+Project:
+DESCRIPTION: Polymetal
+NAME: Polymetal
+NUMBER: PLM
+ID: PLM
+
+Session:
+NAME: vasilevaea
+LOGIN: vasilevaea
+HOST: PMI0447
+ENTERED: 14:26 17 Oct
+UNIQUEID: X7940-PMI0447
+
+Module:
+MODULE: DIAGRAMS
+
+User:
+NAME: SYSTEM
+ACCESS: Free
+
+Teams:
+NAME: MASTER
+REFNO: =24575/27
+NAME: DRAFT
+REFNO: =24575/302
+NAME: ADMIN
+REFNO: =24575/392
+NAME: SAMPLE
+REFNO: =24575/696
+
+MDB:
+NAME: /SCHEMATIC
+DESCRIPTION:
+REFNO: =24575/948
+
+DBs:
+NAME: SCHEMATICS/CATA_INCLUDE
+  TYPE: SCHE
+  REFNO: =24575/951
+  FOREIGN: LOCAL
+  NUMBER: 25
+  FILE: /%PLM000%/plm0025_0001
+  PRIMARY:
+  ACCESS: Multiwrite
+  CLAIM: Implicit
+  MODE: RW
+NAME: ATTRIB/DICT
+  TYPE: DICT
+  REFNO: =24575/418
+  FOREIGN: LOCAL
+  NUMBER: 1146
+  FILE: /%PLM000%/plm1146_0001
+  PRIMARY:
+  ACCESS: Update
+  CLAIM:
+  MODE: RW
+NAME: PIPE/CATA
+  TYPE: CATA
+  REFNO: =24575/386
+  FOREIGN: LOCAL
+  NUMBER: 1100
+  FILE: /%PLM000%/plm1100_0001
+  PRIMARY:
+  ACCESS: Multiwrite
+  CLAIM: Implicit
+  MODE: RW
+NAME: PIPE/PIPE-COMMON
+  TYPE: CATA
+  REFNO: =24575/960
+  FOREIGN: LOCAL
+  NUMBER: 1051
+  FILE: /%PLM000%/plm1051_0001
+  PRIMARY:
+  ACCESS: Multiwrite
+  CLAIM: Implicit
+  MODE: RW
+NAME: PIPE/PIPE-NOZZLE
+  TYPE: CATA
+  REFNO: =24575/961
+  FOREIGN: LOCAL
+  NUMBER: 1109
+  FILE: /%PLM000%/plm1109_0001
+  PRIMARY:
+  ACCESS: Multiwrite
+  CLAIM: Implicit
+  MODE: RW
+NAME: MASTER/PIPECATA
+  TYPE: CATA
+  REFNO: =24575/914
+  FOREIGN: FOREIGN
+  NUMBER: 7000
+  FILE: /%ACP000%/acp7000_0001
+  PRIMARY:
+  ACCESS: Multiwrite
+  CLAIM: Implicit
+  DESCRIPTION: [INC.CATA.ACP]
+  MODE: R
+
+Deferred DBs:
+(None)
